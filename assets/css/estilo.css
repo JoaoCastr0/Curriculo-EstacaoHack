@@ -1,0 +1,117 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3096;
+   }
+
+   ul li,ol{
+    list-style: none;
+    
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 99vw; 
+        position: relative;
+    }
+
+    .menu li {
+        display: inline;
+    }
+
+    .menu li a {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .perfil-img{
+        border: solid #2c3096 3px;
+        border-radius: 25%;
+        width: 40%;
+    }
+
+    #banner-sobre {
+        padding: 10px 10px 30px 10px;
+        background-image: url(../img/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #banner-sobre h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+    
+    #banner-sobre p{
+        text-align: center;
+        color: white;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .flex-educa{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #competencias, #exp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logos{
+        width: 20%;    
+    }
+
+    .logos-exp {
+        width: 10%;
+    }
+
+    #contato li {
+        display: inline; 
+    }
+
+    #contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99vw; 
+        position: relative;
+    }
+
+    #linha {
+        margin: 70px;
+        border-bottom: 1px solid #2c3096;
+      }
+
+      .rodape {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px;
+      }

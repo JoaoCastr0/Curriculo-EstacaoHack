@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Joao Castro">
-    <meta name="keywords" content="Comida de botedo, boteco">
-    <meta name="description" content="lorem">
+    <meta name="keywords" content="Curriculo, estacao hack">
+    <meta name="description" content="Curriculo em HTML">
     <link rel="stylesheet" href="assets/css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curriculo - João</title>
 </head>
@@ -15,8 +16,9 @@
 <body>
 
     <header>
+
         <nav class="menu">
-            <a href=""><img src="assets/img/logoEH.png"></a>
+            <a href="#"><img src="assets/img/logoEH.png"></a>
             <ul>
                 <li><a href="#banner-sobre">Sobre</a></li>
                 <li><a href="#competencias">Habilidades e competencias</a></li>
@@ -27,29 +29,23 @@
         </nav>
     </header>
 
-    <div id="banner-sobre">
-        <img src="assets/img/perfil.JPG" alt="foto de perfil">
-        <h1>Sobre</h1>
-        <p> Tenho 19 anos, atualmente estou estagiando na área de informática na Prefeitura de São Paulo atuando mais
-            na
-            parte de suporte. Tenho conhecimento sobre diversas linguagens de programação, metodologia Agil e
-            um pouco de conhecimento técnico adquirido no meu atual estágio.
-        </p>
+    <div class="container">
+        <div id="banner-sobre">
+            <img class="perfil-img" src="assets/img/perfil.JPG" alt="foto de perfil">
+            <h1>Sobre</h1>
+            <p> Tenho 19 anos, atualmente estou estagiando na área de informática na Prefeitura de São Paulo atuando
+                mais
+                na
+                parte de suporte. Tenho conhecimento sobre diversas linguagens de programação, metodologia Agil e
+                um pouco de conhecimento técnico adquirido no meu atual estágio.
+            </p>
+        </div>
     </div>
+
+
 
     <section id="competencias">
         <h2>Habilidades e competencias</h2>
-        <p>JAVA EE(JPA,JPQL),JAVA SE, C#,.NET,HTML5 (CSS, Javascript, JSP, Servlet)
-            JSF, WebServices
-            Metodologia Ágil (Scrum)
-            IOT (Watson,IBM Blue Mix,Arduino,Node-Red)
-            Desenvolvimento Mobile utilizando Swift (iOS) e Java (Android)
-            Plataforma .NET, ASP.NET MVC
-            Conhecimento de CRM e ERP
-            Linguagem SQL/PL-SQL (DDL, DML, DRS, DTL) e MongoDB.
-            Boa comunicação, pró-atividade, bom relacionamento interpessoal, facilidade em adaptar-se, facilidade em
-            aprendizado, busca de crescimento e aperfeiçoamento profissional.
-        </p>
         <ul>
             <li>JAVA EE(JPA,JPQL),JAVA SE, C#,.NET,HTML5 (CSS, Javascript, JSP, Servlet)</li>
             <li>Metodologia Ágil (Scrum)</li>
@@ -62,13 +58,15 @@
         </ul>
     </section>
 
+    <div id="linha"></div>
+
     <section id="estudo">
+        <h2>Estudo</h2>
+
         <div class="flex-educa">
-            <h2>Estudo</h2>
-
-
             <ul>
                 <li>ENSINO SUPERIOR</li>
+                <li>Análise e Desenvolvimento de Sistemas</li>
                 <li>Instituição - FIAP</li>
                 <li>Semestre - 4º</li>
                 <li>Periodo - Matutino</li>
@@ -78,7 +76,7 @@
             <ul>
                 <li>ENSINO MÉDIO</li>
                 <li>Instituição - Colégio Objetivo</li>
-                <li>Concluido em 12/2017</li>
+                <li>Concluido em 12/2016</li>
             </ul>
 
             <ul>
@@ -91,23 +89,28 @@
 
     </section>
 
+    <div id="linha"></div>
+
+    <h2>Experiencia</h2>
+
     <section id="exp">
-        <h2>Experiencia</h2>
+        <img src="assets/img/prefeitura-logo.png" class="logos-exp">
         <p>Prefeitura de São Paulo - 2018: Estagiário de informática.</p>
     </section>
 
+
     <footer>
-        <div>
-            <div id="contato">
-                <ol>
-                    <li><a href="https://www.linkedin.com/in/joão-castro"><img src="assets/img/linkedin-logo.png"></a></li>
-                    <li><a href="https://github.com/JoaoCastr0"><img src="assets/img/github-logo.png"></a></li>
-                    <li><a href="https://www.facebook.com/JoaoChav"><img src="assets/img/facebook-logo.png"></a></li>
-                    <li><a href="https://www.instagram.com/j_aao"><img src="assets/img/instagram-logo.png"></a></li>
-                </ol>
-            </div>
-        </div>
+        <h2>Contato</h2>
+        <section>
+            <ol class="rodape">
+                <li><a href="https://www.linkedin.com/in/joão-castro"><img class="logos" src="assets/img/linkedin-logo.png"></a></li>
+                <li><a href="https://github.com/JoaoCastr0"><img class="logos" src="assets/img/github-logo.png"></a></li>
+                <li><a href="https://www.facebook.com/JoaoChav"><img class="logos" src="assets/img/facebook-logo.png"></a></li>
+                <li><a href="https://www.instagram.com/j_aao"><img class="logos" src="assets/img/instagram-logo.png"></a></li>
+            </ol>
+        </section>
     </footer>
+
 </body>
 
 </html>
